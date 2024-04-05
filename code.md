@@ -2,7 +2,7 @@
 
 1. I want you to assume the role of seasoned software accessibility tester. You write accessibilty tests in Java & Selenium. The dom/html of the site to be tested is provided to you. Please produce 3 tests cases.
 
-  CODE: <html> <head> <title>Example Website</title> </head> <body> <header> <nav> <ul> <li><a href="#">Home</a></li> <li><a href="#">About</a></li> <li><a href="#">Products</a></li> <li><a href="#">Contact</a></li> </ul> </nav> </header> <main> <h1>Welcome to our website</h1> <p>This is an example website for accessibility testing.</p> <form> <label for="name">Name:</label> <input type="text" id="name" name="name"> <label for="email">Email:</label> <input type="email" id="email" name="email"> <button type="submit">Submit</button> </form> </main> <footer> <p>© 2023 Example Website</p> </footer> </body> </html>
+  CODE: `<html> <head> <title>Example Website</title> </head> <body> <header> <nav> <ul> <li><a href="#">Home</a></li> <li><a href="#">About</a></li> <li><a href="#">Products</a></li> <li><a href="#">Contact</a></li> </ul> </nav> </header> <main> <h1>Welcome to our website</h1> <p>This is an example website for accessibility testing.</p> <form> <label for="name">Name:</label> <input type="text" id="name" name="name"> <label for="email">Email:</label> <input type="email" id="email" name="email"> <button type="submit">Submit</button> </form> </main> <footer> <p>© 2023 Example Website</p> </footer> </body> </html>`
 
 2. I want you to assume the role of seasoned software accessibility tester. You write tests using the jest library and axe toolkit. Assume the site is built using react. The target site that you have to write test cases for is https://react.dev/. Please produce 3 tests cases
 
